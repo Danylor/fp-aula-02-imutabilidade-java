@@ -1,7 +1,7 @@
 import cidade.CidadeRecord;
-import exemplo.PessoaRecordShallow;
 import org.junit.jupiter.api.Test;
 import pessoa.PessoaRecord;
+import pessoa.PessoaRecordShallow;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,7 +9,7 @@ class ImutabilidadeTest {
     @Test
     void testPessoaRecordShallow() {
         Cidade cidade = new Cidade("São Paulo");
-        PessoaRecordShallow pessoa = new PessoaRecordShallow("Carlos", cidade);
+        pessoa.PessoaRecordShallow pessoa = new pessoa2.PessoaRecordShallow("Carlos", cidade);
 
         // Modificando a cidade original
         cidade.setNome("Rio de Janeiro");
