@@ -3,7 +3,8 @@
  * Veja o README para mais detalhes.
  */
 public class Principal {
-    public static void main(final String[] args) {
+    public static <String> void main(final String[] args) {
 
     }
 }
+
